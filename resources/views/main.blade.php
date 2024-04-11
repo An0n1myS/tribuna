@@ -127,19 +127,19 @@
 
     <p class="text-center text-[40px] font-bold text-[#3B3B3B]">ЩО ЩЕ <span class="text-[#CA0202]">ЦІКАВОГО</span>?</p>
 
-    <div class="flex flex-row w-4/5 m-auto text-[42px] text-white  justify-around ">
-        <div class="p-28 pr-18 pl-18 font-bold text-center m-5 min-w-[35%]  flex justify-center items-center bg-opacity-50" style="background-image: url('/images/bottom_menu_1.jpg');  background-repeat: no-repeat;">
+    <div class="flex flex-row gap-5 w-[90%] m-auto text-[42px] text-white justify-evenly">
+        <div class="p-28  font-bold text-center w-full flex justify-center items-center bg-opacity-50" style="background-image: url('/images/bottom_menu_1.jpg');  background-repeat: no-repeat;">
             <a href="{{route('services.index')}}" class="hover:underline">ПОСЛУГИ</a>
         </div>
-        <div class="text-[40px] p-28 pr-18 pl-18 font-bold text-center m-5 min-w-[35%] w-full flex justify-center items-center bg-opacity-50" style="background-image: url('/images/bottom_menu_2.jpg'); background-size: cover; background-repeat: no-repeat;">
+        <div class="text-[40px] p-28 font-bold text-center w-full flex justify-center items-center bg-opacity-50" style="background-image: url('/images/bottom_menu_2.jpg'); background-size: cover; background-repeat: no-repeat;">
             <a href="{{route('food_zones.index')}}" class="hover:underline">ФУДЗОНА</a>
         </div>
-        <div class="p-28 pr-18 pl-18 font-bold text-center m-5 min-w-[35%]  flex justify-center items-center bg-opacity-50" style="background-image: url('/images/bottom_menu_3.jpg'); background-size: cover; background-repeat: no-repeat;">
+        <div class="p-28 font-bold text-center w-full flex justify-center items-center bg-opacity-50" style="background-image: url('/images/bottom_menu_3.jpg'); background-size: cover; background-repeat: no-repeat;">
             <a href="{{route('gallery')}}" class="hover:underline">ГАЛЕРЕЯ</a>
         </div>
     </div>
 
-    <div class="max-w-[90.3%] w-full m-auto font-bold text-center text-[48px] text-white p-6 mb-22" style="background-image: url('/images/bottom_menu_3.jpg'); background-size: cover; background-repeat: no-repeat; ">
+    <div class="max-w-[90.3%] w-full m-auto font-bold text-center text-[48px] text-white p-6 mt-5 mb-22" style="background-image: url('/images/bottom_menu_3.jpg'); background-size: cover; background-repeat: no-repeat; ">
         <a href="{{route('map')}}" class="hover:underline">ІНТЕРАКТИВНА МАПА</a>
     </div>
     <br>
