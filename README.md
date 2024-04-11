@@ -49,7 +49,4 @@
 - Node.js
 
 ## Лицензия
-[Укажите лицензию вашего проекта, если есть.]
-
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+[MIT license](https://opensource.org/licenses/MIT).
